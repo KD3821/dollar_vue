@@ -1,0 +1,12 @@
+export const REGISTER_USER_ACTION = '[actions] register user';
+export const LOGIN_USER_ACTION = '[actions] login user';
+export const AUTH_ACTION = '[actions] do user auth';
+export const AUTO_AUTH_ACTION = '[actions]  do user auto auth';
+export const LOGOUT_ACTION = '[actions] logout user';
+export const AUTO_LOGOUT_ACTION = '[actions] auto logout user';
+export const GET_USER_EMAIL = '[getters] user email';
+export const SET_USER_TOKEN_DATA_MUTATION = '[mutations] set user token data';
+export const IS_USER_AUTHENTICATED_GETTER = '[getters] user authenticated';
+export const GET_USER_ACCESS_TOKEN_GETTER = '[getters] user access token';
+export const REGISTER_CLIENT_ACTION = '[actions] register client';
+export const LOGIN_CLIENT_ACTION = '[actions] login client';
